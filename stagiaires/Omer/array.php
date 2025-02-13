@@ -2,7 +2,7 @@
 
 $abcd = array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j");
 
-$days = array("lundi", "mardi", "mercredi", "jeudi", "Friday", "samedi", "dimanche");
+$days = array(1=>"lundi", "mardi", "mercredi", "jeudi", "Friday", "samedi", "dimanche");
 
 $web1 = [
     "nordine" => [

@@ -51,14 +51,7 @@
     <h1>4. Affichez le jour actuel de la semaine en français avec la fonction date() et la variable SsemaineFr</h1>
 
     <?php
-    foreach ($days as $day) {
-        $date = date('l');
-
-        if ($day == $date) {
-            echo $day;
-        }
-    }
-
+echo $days[date("N")];
     ?>
 
     <br>
