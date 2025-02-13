@@ -15,11 +15,9 @@ $temerature = rand(-100, 200);
 
 if ($temerature <= 0) {
     echo "L'eau est solide  à  $temerature";
-}
-else if ($temerature >=100 ){
+} else if ($temerature >= 100) {
     echo "L'eau est gazeux  à $temerature";
-}else {
+} else {
     echo "L'eau est liquide  à $temerature";
 }
-
 ?>

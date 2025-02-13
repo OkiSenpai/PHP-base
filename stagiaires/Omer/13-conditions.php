@@ -8,19 +8,16 @@
 
 
 
-$chiffre = rand(1 , 10);
-if ($chiffre >= 6 && $chiffre <=7){
+$chiffre = rand(1, 10);
+if ($chiffre >= 6 && $chiffre <= 7) {
     echo $chiffre . " : Bien";
-}elseif($chiffre >=4 && $chiffre <=5){
+} elseif ($chiffre >= 4 && $chiffre <= 5) {
     echo $chiffre . " : Peut mieux faire";
 
-}elseif($chiffre >= 0 && $chiffre <= 3){
+} elseif ($chiffre >= 0 && $chiffre <= 3) {
     echo $chiffre . " : Nul, étudie la prochaine fois";
-}else{
+} else {
     echo $chiffre . " : Très bien";
 }
-
-
-
 
 ?>

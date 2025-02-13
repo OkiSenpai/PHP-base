@@ -41,4 +41,4 @@ $webdev_2025 = [
     // ... etc
 ];
 
-var_dump($webdev_2025);
+echo $webdev_2025["WEBDEV04"]["Sites"]["github"];
