@@ -7,6 +7,9 @@
 if (isset($_GET['page'])) {
     switch ($_GET['page']) {
         case 'formation':
+            include("../view/formationView.php");
+            break;
+        case 'programme':
             include("../view/programVuew.php");
             break;
         case 'newsletter':
@@ -15,6 +18,7 @@ if (isset($_GET['page'])) {
         case 'contact':
             include("../view/formulaireVuew.php");
             break;
+        
         default:
             include("../view/homeView.php");
             break;

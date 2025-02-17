@@ -34,7 +34,7 @@
 				<span>(3454)</span>
 			</div>
 
-			<a href="formations.html" class="btn-formation">Découvrir la formation</a>
+			<a href="../view/formationView.php" class="btn-formation">Découvrir la formation</a>
 		</div>
 
 		<div class="formations-col">
@@ -52,7 +52,7 @@
 				<span>(6655)</span>
 			</div>
 			
-			<a href="formations.html" class="btn-formation">Découvrir la formation</a>
+			<a href="../view/formationView.php" class="btn-formation">Découvrir la formation</a>
 		</div>
 
 		<div class="formations-col">
@@ -70,7 +70,7 @@
 				<span>(2087)</span>
 			</div>
 
-			<a href="formations.html" class="btn-formation">Découvrir la formation</a>
+			<a href="../view/formationView.php" class="btn-formation">Découvrir la formation</a>
 		</div>
 	</section>
 	<!-- Section footer------------------->

@@ -21,7 +21,7 @@
 	<section class="header">
 		<h1>Apprendre le développement Web</h1>
 		<h3>Découvrir nos formations</h3>
-		<a href="formations.html" class="btn">Nos formations</a>
+		<a href="view/formationView.php" class="btn">Nos formations</a>
 	</section>
 
 
