@@ -10,13 +10,13 @@ if (isset($_GET['page'])) {
             include("../view/formationView.php");
             break;
         case 'programme':
-            include("../view/programVuew.php");
+            include("../view/programView.php");
             break;
         case 'newsletter':
             include("../view/newsLetterView.php");
             break;
         case 'contact':
-            include("../view/formulaireVuew.php");
+            include("../view/formulaireView.php");
             break;
         
         default:

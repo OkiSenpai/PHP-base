@@ -21,7 +21,7 @@
 	<section class="header">
 		<h1>Apprendre le développement Web</h1>
 		<h3>Découvrir nos formations</h3>
-		<a href="view/formationView.php" class="btn">Nos formations</a>
+		<a href="index.php?page=formation" class="btn">Nos formations</a>
 	</section>
 
 
@@ -48,7 +48,7 @@
 				</div>
 			
 
-				<a href="formations.html" class="btn-formation">Découvrir la formation</a>
+				<a href="index.php?page=formation" class="btn-formation">Découvrir la formation</a>
 			</div>
 
 
@@ -67,7 +67,7 @@
 				    <span>(6655)</span>
 				</div>
 				
-				<a href="formations.html" class="btn-formation">Découvrir la formation</a>
+				<a href="index.php?page=formation" class="btn-formation">Découvrir la formation</a>
 			</div>
 
 			<div class="formations-col">
@@ -85,7 +85,7 @@
 				    <span>(87)</span>
 				</div>
 
-				<a href="formations.html" class="btn-formation">Découvrir la formation</a>
+				<a href="index.php?page=formation" class="btn-formation">Découvrir la formation</a>
 			</div>
 
 		</div>
@@ -108,7 +108,7 @@
 				    <span>(777)</span>
 				</div>
 
-				<a href="formations.html" class="btn-formation">Découvrir la formation</a>
+				<a href="index.php?page=formation" class="btn-formation">Découvrir la formation</a>
 			</div>
 
 
@@ -127,7 +127,7 @@
 				    <span>(65)</span>
 				</div>
 
-				<a href="formations.html" class="btn-formation">Découvrir la formation</a>
+				<a href="index.php?page=formation" class="btn-formation">Découvrir la formation</a>
 			</div>
 
 			<div class="formations-col">
@@ -145,7 +145,7 @@
 				    <span>(9999)</span>
 				</div>
 
-				<a href="formations.html" class="btn-formation">Découvrir la formation</a>
+				<a href="index.php?page=formation" class="btn-formation">Découvrir la formation</a>
 			</div>
 
 		</div>
@@ -158,7 +158,7 @@
 			<h1>Apropos de nous</h1>
 			<h3>Skilldeve pour l'apprentissage du développement</h3>
 			<p>J’ai formé, en mode présentiel et distanciel, des milliers d’étudiants en technologies informatiques. Je suis enseignant à l'université et je participe au développement de plusieurs projets informatiques. Je participe aussi à la formation des personnels d’entreprises. Ayant une longue expérience dans la formation en technologies numériques, j'ai animé de nombreux séminaires et journées de formation auprès des apprenants débutants et confirmés dans plusieurs pays.</p>
-			<a href="formations.html" class="btn">En savoir Plus</a>
+			<a href="index.php?page=formation" class="btn">En savoir Plus</a>
 
 		</div>
 	</section>
@@ -220,7 +220,7 @@
 			<p>Proposez votre expertise et partagez vos compétences sur une plateforme reconnue par sa fiabilité.
 			Nous mettons à votre disposition tous les outils nécessaires pour prendre soin de vos apprenants</p>
 
-			<a href="formations.html"><button class="btn-formateur">Devenir Formateur</button></a>
+			<a href="index.php?page=formation"><button class="btn-formateur">Devenir Formateur</button></a>
 
 		</div>
 
