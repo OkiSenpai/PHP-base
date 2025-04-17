@@ -1,53 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-
-
-
-
 <?php
 
-// Créez une copie du fichier 18-boucle-while.php dans votre espace stagiaire, puis créez les boucles while telles qu'indiquées dans les commentaires
+echo "<p>1) Calculez la somme des entiers de 1 à 10 avec la boucle while<br>";
 
-
-
+$somme = 0;
 $i = 0;
+while ($i <= 10) {
+  $somme += $i;
+  $i++;
+}
 
-do{
-    echo "$i ";
-    $i++;
-}while($i<=10);
-// Affiche : 0 1 2 3 4 5 6 7 8 9 10
-echo "<br>";
+// ligne qui doit devenir fonctionnelle :
+echo "La somme des entiers de 1 à 10 est : $somme";
 
-// même si la condition est fausse, les instructions sont exécutées au moins une fois
-$page = 1;
-$pageNb = 1;
-echo "Page";
-do{
-    echo " $page";
-    $page++;
-}while($page<=$pageNb);
-// Affiche : Page 1
+echo "</p>";
 
-echo "<br>";
+echo "<p>2) Affichez une table de multiplication (de 1 à 10 au hasard) en utilisant la boucle while<br>";
+$random_table = rand(1, 10);
+$i = 1;
+$x = 1;
+echo "la table de $random_table" . '<br>';
 
-// si on a plus de pages :
-$page = 1;
-$pageNb = 4;
-echo "Page";
-do{
-    echo " $page";
-    $page++;
-}while($page<=$pageNb);
-// Affiche : Page 1 2 3 4
+while ($x <= 10) {
+  echo $random_table . 'x' . $x . '=' . $random_table * $x . ' || ';
+  $x++;
+}
 
-?>
-    
-</body>
-</html>
+
+
+echo "</p>";
+
+echo "<p>3) Affichez la factorielle d'un nombre au hasard entre 3 et 12 en utilisant la boucle while<br>
+La factorielle d'un nombre entier positif n, notée n!, est le produit de tous les entiers positifs inférieurs ou égaux à n.<br><br>
+Par exemple : <br>3! = 3 x 2 x 1 = 6 <br> 5! = 5 x 4 x 3 x 2 x 1 = 120 <br> 
+7! = 7 x 6 x 5 x 4 x 3 x 2 x 1 = 5040
+<br><br>";
+
+$random_facto = rand(3, 12);
+$i = 1;
+$sum = 1;
+$result = $random_facto;
+echo "Table factioriel de $random_facto <br>";
+
+echo "$random_facto! = ";
+while ($random_facto >= $i) {
+  echo "$random_facto x  ";
+  $sum *= $random_facto;
+  $random_facto--;
+}
+echo "= " . $sum;
+
+
+echo "</p>";

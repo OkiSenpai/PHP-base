@@ -19,7 +19,7 @@
 		<div class="form">
 			<h4>Contactez-nous</h4>
 			<p>Nous sommes toujours là pour vous aider</p>
-
+<!--  -->
 			<div class="row-form">
 				<input type="text" name="nom" placeholder="Votre Nom">
 				<input type="text" name="email" placeholder="Votre Email">

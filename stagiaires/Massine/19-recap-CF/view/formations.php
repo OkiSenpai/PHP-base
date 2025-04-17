@@ -21,7 +21,7 @@ include('inc/navView.php');
 			<h1>Apropos de nous</h1>
 			<h3>Skilldeve pour l'apprentissage du développement</h3>
 			<p>J’ai formé, en mode présentiel et distanciel, des milliers d’étudiants en technologies informatiques. Je suis enseignant à l'université et je participe au développement de plusieurs projets informatiques. Je participe aussi à la formation des personnels d’entreprises. Ayant une longue expérience dans la formation en technologies numériques, j'ai animé de nombreux séminaires et journées de formation auprès des apprenants débutants et confirmés dans plusieurs pays.</p>
-			<a href="formations.html" class="btn">En savoir Plus</a>
+			<a href="./?page=formation" class="btn">En savoir Plus</a>
 
 		</div>
 	</section>
@@ -83,7 +83,7 @@ include('inc/navView.php');
 			<p>Proposez votre expertise et partagez vos compétences sur une plateforme reconnue par sa fiabilité.
 			Nous mettons à votre disposition tous les outils nécessaires pour prendre soin de vos apprenants</p>
 
-			<a href="formations.html"><button class="btn-formateur">Devenir Formateur</button></a>
+			<a href="./?page=formation"><button class="btn-formateur">Devenir Formateur</button></a>
 
 		</div>
 
@@ -180,68 +180,12 @@ include('inc/navView.php');
 
 <!-- Section footer------------------->
 <footer>
-	
-	<div class="colonne">
-		<h3>Informations de contact</h3>
-		<div class="contact-infos-detail">
-			<h4>Adresse</h4>
-			<div>
-				<i class="fa-sharp fa-solid fa-location-dot"></i>
-				<p>565, rue Victor Hugo, 75000 Paris</p>
-			</div>
-		</div>
-		<div class="contact-infos-detail">
-			<h4>Téléphone</h4>
-			<div>
-				<i class="fa-solid fa-phone"></i>
-				<p>09797797977</p>
-			</div>
-		</div>
-		<div class="contact-infos-detail">
-			<h4>Adresse Email</h4>
-			<div>
-				<i class="fa-solid fa-envelope"></i>
-				<p>skilldeve dot com</p>
-			</div>
-		</div>
-	</div>
 
-	<div class="colonne">
-		<h3>À propos</h3>
-		<a href="#">À propos de nous</a>
-		<a href="#">Contact</a>
-		<a href="#">Politique de confidentialité</a>
-		<a href="#">Conditions générales</a>
-	</div>
-
-	<div class="colonne">
-		<h3>Catégories de formations</h3>
-		<a href="#">Développement Web</a>
-		<a href="#">Développement Logiciels</a>
-		<a href="#">Data Analyse</a>
-		<a href="#">Data Science</a>
-	</div>
-
-
-	<div class="copyright">
-		<p>© Copyright - Skilldev 2023</p>
-	</div>
-
-
-
+    <?php
+    include ("inc/footerView.php");
+    ?>
 
 </footer>
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>

@@ -23,3 +23,5 @@ if (isset($_GET['page'])) {
     include("../view/homeView.php");
 }
 
+
+

@@ -44,7 +44,7 @@ echo '<p>
 $jour = array("lundi","mardi","mercredi","jeudi","vendredi","samedi", "dimanche");
 
 foreach($jour as $clef => $jour){
-    echo "$jour $clef  ";
+    echo "$jour $clef";
 }
 
 
@@ -56,9 +56,10 @@ echo "</p>";
 
 echo '<p>4) Affichez le jour actuel de la semaine en français avec la fonction date() et la variable $semaineFr<br>';
 
-$jour = array("lundi","mardi","mercredi","jeudi","vendredi","samedi", "dimanche");
-echo date ("l");
-echo date('d m Y H:i');
+var_dump($semaineFr);
+$jour = $semaineFr[date("N")];
+echo $jour;
+
 
 
 echo "</p>";
@@ -88,10 +89,9 @@ echo '<p>6) Affichez la liste des \'nom\', \'age\' et \'note\' du tableau $class
 
 
 
-$classe18 = array("nom" => "Élève 1 | :","age" => " âge : 15 | ","note |" => "note :20");
 
-foreach($classe18 as $classe1 => $classe18 ){
-    echo "$classe18";
+foreach($classe18 as $classe3 => $classe18 ){
+    echo "nom :".$classe3["nom"]." | âge " .$classe3["âge"]."";
 }
 
 
@@ -103,6 +103,15 @@ echo "</p>";
  */
 
 echo '<p>7) Avec 2 boucles foreach, affichez tous les champs la liste des pays du tableau $countryCode<br>';
+
+
+foreach($countryCode as $country){
+    foreach ($country as $value){
+        echo "$values | ";
+    }
+    echo "<br>";
+}
+
 
 
 

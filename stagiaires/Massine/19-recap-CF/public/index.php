@@ -20,10 +20,14 @@ if (isset($_GET['page'])) {
         case 'programme':
             include "../view/programme.php";
             break;
-        case 'news';
+        case 'news':
             include "../view/newsletter.php";
-        case 'formulaire';
+            break;
+        case 'formulaire':
             include "../view/formulaire.php";
+            break;
+        default :
+            include "../view/homepageView.php";
     } 
 }else{
     include "../view/homepageView.php";
